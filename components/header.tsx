@@ -24,7 +24,7 @@ export default function Header() {
       >
         <ul
           className={clsx(
-            'flex w-full flex-wrap h-full items-center justify-center gap-y-1 text-[0.9rem] font-medium',
+            'flex w-full flex-wrap h-fit sm:h-full items-center justify-center gap-y-1 text-[0.9rem] font-medium',
             'sm:flex-nowrap sm:gap-5'
           )}
         >
