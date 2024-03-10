@@ -11,6 +11,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import clsx from 'clsx';
 import { FaPaperPlane } from 'react-icons/fa';
+import { MY_EMAIL } from '@/lib/constants';
 
 const MAX_EMAIL_LENGTH = 500;
 const MAX_MESSAGE_LENGTH = 5000;
@@ -77,8 +78,8 @@ export default function Contact() {
 
       <p className='text-gray-700 -mt-4 dark:text-white/80'>
         Please contact me directly at{' '}
-        <a className='underline' href='mailto:example@gmail.com'>
-          damithamewan201@gmail.com
+        <a className='underline' href={`mailto:${MY_EMAIL}`}>
+          {MY_EMAIL}
         </a>{' '}
         or through this form.
       </p>
