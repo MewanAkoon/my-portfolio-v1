@@ -18,7 +18,7 @@ export const experiencesData = [
     description:
       'During my 8-month internship at Spera Labs, I collaborated on two major projects, where I primarily utilized React, Firebase, and Node.js.',
     icon: createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '2019 - 2020',
   },
   {
     title: 'Full-Stack Developer',
