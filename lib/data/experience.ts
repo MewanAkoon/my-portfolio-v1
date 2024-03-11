@@ -6,7 +6,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 export const experiencesData = [
   {
     title: 'Graduated',
-    location: 'University of Ruhuna, SL',
+    location: 'University of Ruhuna, LK',
     description:
       'I proudly graduated with a Bachelor of Computer Science degree, equipped with solid theoretical knowledge and practical skills. I immediately landed on my first role as a full-stack developer.',
     icon: createElement(LuGraduationCap),
@@ -14,7 +14,7 @@ export const experiencesData = [
   },
   {
     title: 'Intern Full-Stack Developer',
-    location: 'Spera Labs, SL',
+    location: 'Spera Labs, LK',
     description:
       'During my 8-month internship at Spera Labs, I collaborated on two major projects, where I primarily utilized React, Firebase, and Node.js.',
     icon: createElement(CgWorkAlt),
@@ -22,7 +22,7 @@ export const experiencesData = [
   },
   {
     title: 'Full-Stack Developer',
-    location: 'AI Team, SL',
+    location: 'AI Team, LK',
     description:
       "Currently thriving as a full-stack developer at the AI Team. My tech stack comprises React, Next.js, TypeScript, Tailwind, Firebase, and GCP. I'm passionate about leveraging these tools to create innovative solutions and always open to exploring new opportunities in the field.",
     icon: createElement(FaReact),

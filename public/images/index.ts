@@ -1,4 +1,3 @@
-export * as corpcommentImg from './corpcomment.png';
 export * as profileImg from './profile.jpg';
 export * as gfbsubmissionstableImg from './gfbsubmissionstable.png';
 export * as lynnknowledgebaseImg from './lynnknowledgebase.png';
