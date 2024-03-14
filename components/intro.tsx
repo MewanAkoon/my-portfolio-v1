@@ -68,13 +68,23 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>Hello, I&apos;m Mewan,</span> a{' '}
-        <span className='font-bold'>full-stack developer</span> with{' '}
-        <span className='font-bold italic'>2+ years</span> of hands-on
-        experience. I enjoy building{' '}
-        <span className='italic'>websites and applications,</span> leveraging
-        the power of <span className='font-bold'>TypeScript</span>. My focus is{' '}
-        <span className='font-bold underline underline-offset-4'>
+        <span className='font-bold'>
+          Hello, I&apos;m{' '}
+          <span
+            className={clsx(
+              'text-transparent bg-clip-text bg-gradient-to-r font-bold text-3xl sm:text-4xl',
+              'from-[#404a7b] to-black',
+              'dark:from-[#6e94fb] dark:to-white'
+            )}
+          >
+            Mewan
+          </span>
+          , a <span className='italic'>full-stack</span> developer with 2+ years
+          of hands-on experience.
+        </span>{' '}
+        I enjoy building websites and applications, leveraging the power of{' '}
+        <span className='font-bold'>TypeScript</span>. My focus is{' '}
+        <span className='italic underline underline-offset-4 font-bold'>
           React (Next.js)
         </span>
         .
