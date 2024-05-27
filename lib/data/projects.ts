@@ -2,6 +2,7 @@ import {
   gfbsubmissionstableImg,
   hiskingdomImg,
   lynnknowledgebaseImg,
+  devsageImg,
 } from '@/public/images';
 
 export const projectsData = [
@@ -35,5 +36,12 @@ export const projectsData = [
       'A Christian social network with Firebase, supporting payments and email alerts for churches and believers.',
     tags: ['React', 'Node.js', 'Redux', 'Stripe', 'Firebase', 'MongoDB'],
     imageUrl: hiskingdomImg,
+  },
+  {
+    title: 'DevSage',
+    description:
+      'Dive into a curated collection of interview questions, notes, and coding examples spanning MERN stack technologies to sharpen your software development skills.',
+    tags: ['React', 'Next.js', 'TypeScript', 'MDX', 'Tailwind', 'Clerk'],
+    imageUrl: devsageImg,
   },
 ] as const;

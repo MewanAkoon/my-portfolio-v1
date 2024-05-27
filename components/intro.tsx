@@ -38,12 +38,12 @@ export default function Intro() {
           >
             <Image
               src={profileImg}
-              alt='Mewan portrait'
-              width='192'
-              height='192'
-              quality='95'
-              priority={true}
-              className='h-24 w-24 rounded-full object-cover border-[0.3rem] border-white shadow-xl'
+              alt='profile-image'
+              width={112}
+              height={112}
+              quality={95}
+              priority
+              className='h-28 w-28 rounded-full object-cover border-[0.3rem] border-white shadow-xl'
             />
           </motion.div>
 
@@ -79,13 +79,13 @@ export default function Intro() {
           >
             Mewan
           </span>
-          , a <span className='italic'>full-stack</span> developer with 2+ years
+          , a <span className='italic'>full-stack</span> developer with 3+ years
           of hands-on experience.
         </span>{' '}
         I enjoy building websites and applications, leveraging the power of{' '}
-        <span className='font-bold'>TypeScript</span>. My focus is{' '}
+        <span className='font-bold'>TypeScript</span>. My focus areas are{' '}
         <span className='italic underline underline-offset-4 font-bold'>
-          React (Next.js)
+          MERN and Next.js
         </span>
         .
       </motion.h1>
