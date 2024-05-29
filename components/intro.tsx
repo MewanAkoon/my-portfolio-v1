@@ -111,7 +111,7 @@ export default function Intro() {
           </Button>
         </Link>
 
-        <a href='/files/CV.pdf' download>
+        <a href='/files/mewan-cv.pdf' download>
           <Button variant='secondary'>
             Download CV <HiDownload className='opacity-70' />
           </Button>
